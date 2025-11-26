@@ -6,8 +6,8 @@ from knowledge_base import knowledge_base
 
 def run_bot():
     # Загружаем базу знаний при старте
-#    print("Загрузка базы знаний из PDF...")
-#    knowledge_base.load_pdf_folder()
+    print("Загрузка базы знаний из PDF...")
+    knowledge_base.load_pdf_folder()
     
     while True:
         try:
