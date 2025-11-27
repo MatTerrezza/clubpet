@@ -22,9 +22,9 @@ def get_admin_keyboard():
 def get_client_keyboard():
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
     
-    btn_ai = types.KeyboardButton("AI Кинолог")
-    btn_order = types.KeyboardButton("Записаться на консультацию")
-    btn_about = types.KeyboardButton("О нас")
+    btn_ai = types.KeyboardButton("Кинолог")
+    btn_order = types.KeyboardButton("Консультация")
+    btn_about = types.KeyboardButton("О клубе")
     
     keyboard.add(btn_ai, btn_order)
     keyboard.add(btn_about)
